@@ -13101,6 +13101,14 @@
 	name = "First Aid Supplies";
 	req_access_txt = "5"
 	},
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/storage/belt/medical,
+/obj/item/storage/belt/medical,
+/obj/item/storage/belt/medical,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
 "cwB" = (
@@ -13137,6 +13145,7 @@
 	pixel_y = 4
 	},
 /obj/item/storage/box/syringes,
+/obj/item/clothing/neck/stethoscope,
 /obj/item/gun/syringe,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
@@ -34412,6 +34421,11 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron,
 /area/engineering/break_room)
+"jnF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/secure_closet/medical3,
+/turf/open/floor/iron/white,
+/area/medical/abandoned)
 "jnH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/landmark/start/scientist,
@@ -39610,6 +39624,7 @@
 	dir = 5
 	},
 /obj/machinery/light/directional/east,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/white,
 /area/medical/office)
 "lcj" = (
@@ -50878,7 +50893,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/structure/closet/l3closet,
+/obj/structure/closet/secure_closet/medical3,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
 "oIK" = (
@@ -55771,7 +55786,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/machinery/recharge_station,
+/obj/structure/closet/l3closet,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
 "qoU" = (
@@ -71210,10 +71225,10 @@
 	pixel_x = 14
 	},
 /obj/machinery/power/apc/auto_name/north,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /mob/living/simple_animal/hostile/retaliate/goat{
 	name = "Pete"
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/service/kitchen/coldroom)
 "vmM" = (
@@ -73142,13 +73157,8 @@
 /turf/open/floor/iron/dark,
 /area/science/genetics)
 "vTp" = (
-/obj/structure/table/reinforced,
 /obj/machinery/light/directional/north,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/wrench/medical,
+/obj/structure/closet/secure_closet/medical3,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
 "vTw" = (
@@ -100682,7 +100692,7 @@ pHm
 lVc
 ind
 oOK
-hYF
+jnF
 cHw
 xpZ
 cdm
